@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view>
+  <view class="item" wx:for="{{list}}" wx:for-item="item" wx:key="{{item.id}}" bindtap="itemTabEvent" data-id="{{item.id}}">
+    <image src="{{item.imgUrl}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>

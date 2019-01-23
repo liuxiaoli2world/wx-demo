@@ -1,0 +1,18 @@
+.item {
+  margin: 30rpx 10rpx;
+  overflow: hidden;
+}
+
+image {
+  width: 200rpx;
+  height: 200rpx;
+  vertical-align: middle;
+  opacity: 1;
+}
+
+text {
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #4A4A4A;
+  font-size: 30rpx;
+}

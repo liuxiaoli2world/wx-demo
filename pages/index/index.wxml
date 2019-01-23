@@ -1,0 +1,13 @@
+<!-- index.wxml -->
+<view class="outer">
+  <video src="https://vdse.bdstatic.com//c28e7e9a5730e0dae8cc6b0fc5b85d00?authorization=bce-auth-v1%2Ffb297a5cc0fb434c971b8fa103e8dd7b%2F2017-05-11T09%3A02%3A31Z%2F-1%2F%2F6528af5e55ac29260b145e2080e9e2867dbd3026b21cebdd7196740a48ea7b49" binderror="videoErrorCallback"
+    controls></video>
+  <view class="content">
+    <view class="title">{{title}}</view>
+    <view class="desc" hidden="{{hideDetail}}">{{desc}}</view>
+  </view>
+  <view class="oper">
+    <image class="icon detail-icon" src="../../images/detail.png" bindtap="showDetail"></image>
+    <image class="icon list-icon" src="../../images/list.png" bindtap="showList"></image>
+  </view>
+</view>
